@@ -7,7 +7,7 @@ PASSWORD = "aB3dE7Fg2H"
 
 # Browser settings
 BROWSER = "chrome"  # Options: "chrome", "firefox", "edge"
-HEADLESS = False  # Set True for headless mode
+HEADLESS = True  # Set True for headless mode
 
 # Implicit and Explicit Wait Settings
 IMPLICIT_WAIT = 10
