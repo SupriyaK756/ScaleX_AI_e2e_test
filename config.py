@@ -1,9 +1,11 @@
 # Base URL of the application
-BASE_URL = "http://dev.digital-mozarts.com/"
+BASE_URL = "https://insights.digital-mozarts.com/"
+# BASE_URL = "http://dev.digital-mozarts.com/"
 
 # Default credentials (for testing purposes only)
 USERNAME = "supriya.naugain@digital-mozarts.com"
 PASSWORD = "aB3dE7Fg2H"
+OTP = "123456"
 
 # Browser settings
 BROWSER = "chrome"  # Options: "chrome", "firefox", "edge"

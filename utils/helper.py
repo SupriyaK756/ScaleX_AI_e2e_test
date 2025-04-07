@@ -36,7 +36,10 @@ class Helper:
     def is_element_visible(self, by_locator, timeout=10):
         """Check if an element is visible"""
         try:
-            WebDriverWait(self.driver, timeout).until(EC.visibility_of_element_located(by_locator))
-            return True
+            if WebDriverWait(self.driver, timeout).until(EC.visibility_of_element_located(by_locator)):
+                print(f"Element {by_locator} visible")
+                return True
+            else:
+                return False
         except TimeoutException:
             return False
